@@ -55,40 +55,40 @@ export default function Generator({
   return (
     <section className="lg:max-w-4xl md:max-w-3xl w-[95%] px-4 sm:px-6 lg:px-8 pb-8 pt-8 md:pt-12 space-y-6 text-center">
       {/* <h2 className="text-5xl">{GENERATOR.title}</h2> */}
-      <div className="flex w-full space-x-4">
-        <Textarea
-          key="input"
-          variant="bordered"
-          label=""
-          labelPlacement="inside"
-          placeholder={GENERATOR.description}
-          className="col-span-12 md:col-span-6 flex-grow basis-2/3"
-          value={content}
-          onChange={(e) => setContent(e.target.value)}
-        />
-
-        <Button
-          type="button"
-          className="flex flex-grow items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white"
-          onClick={handleGenerateImage}
-          disabled={isLoading} // 禁用按钮
-        >
-          <Tag />
-          {isLoading
-            ? GENERATOR.buttonTextGenerating
-            : GENERATOR.buttonTextGenerate}
-        </Button>
-      </div>
-      <p>{GENERATOR.textFullFeature}</p>
-      {visible && (
-        <p className="text-red-500">
-          Coming soon! Please join our{" "}
-          <a href={WAITLIST_FORM_LINK} className="underline">
-            waitlist
-          </a>
-          !
-        </p>
-      )}
+      {/*<div className="flex w-full space-x-4">*/}
+      {/*  <Textarea*/}
+      {/*    key="input"*/}
+      {/*    variant="bordered"*/}
+      {/*    label=""*/}
+      {/*    labelPlacement="inside"*/}
+      {/*    placeholder={GENERATOR.description}*/}
+      {/*    className="col-span-12 md:col-span-6 flex-grow basis-2/3"*/}
+      {/*    value={content}*/}
+      {/*    onChange={(e) => setContent(e.target.value)}*/}
+      {/*  />*/}
+      
+      {/*  <Button*/}
+      {/*    type="button"*/}
+      {/*    className="flex flex-grow items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white"*/}
+      {/*    onClick={handleGenerateImage}*/}
+      {/*    disabled={isLoading} // 禁用按钮*/}
+      {/*  >*/}
+      {/*    <Tag />*/}
+      {/*    {isLoading*/}
+      {/*      ? GENERATOR.buttonTextGenerating*/}
+      {/*      : GENERATOR.buttonTextGenerate}*/}
+      {/*  </Button>*/}
+      {/*</div>*/}
+      {/*<p>{GENERATOR.textFullFeature}</p>*/}
+      {/*{visible && (*/}
+      {/*  <p className="text-red-500">*/}
+      {/*    Coming soon! Please join our{" "}*/}
+      {/*    <a href={WAITLIST_FORM_LINK} className="underline">*/}
+      {/*      waitlist*/}
+      {/*    </a>*/}
+      {/*    !*/}
+      {/*  </p>*/}
+      {/*)}*/}
     </section>
   );
 }

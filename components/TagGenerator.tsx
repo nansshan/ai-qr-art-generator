@@ -21,32 +21,32 @@ export default function TagGenerator() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
-        <div className="w-full grid grid-cols-12 gap-4">
-          <Textarea
-            key="input"
-            variant="bordered"
-            label="Description"
-            labelPlacement="outside"
-            placeholder="Enter your description"
-            className="col-span-12 md:col-span-6 mb-6 md:mb-0"
-          />
-        </div>
-        <input
-          name="prompt"
-          value={input}
-          onChange={handleInputChange}
-          id="input"
-        />
-        <button type="submit">Generate</button>
-        <div className="flex gap-2">
-          {tags.map((fruit, index) => (
-            <Chip key={index} onClose={() => handleClose(fruit)} variant="flat">
-              {fruit}
-            </Chip>
-          ))}
-        </div>
-      </form>
+      {/*<form onSubmit={handleSubmit}>*/}
+      {/*  <div className="w-full grid grid-cols-12 gap-4">*/}
+      {/*    <Textarea*/}
+      {/*      key="input"*/}
+      {/*      variant="bordered"*/}
+      {/*      label="Description"*/}
+      {/*      labelPlacement="outside"*/}
+      {/*      placeholder="Enter your description"*/}
+      {/*      className="col-span-12 md:col-span-6 mb-6 md:mb-0"*/}
+      {/*    />*/}
+      {/*  </div>*/}
+      {/*  <input*/}
+      {/*    name="prompt"*/}
+      {/*    value={input}*/}
+      {/*    onChange={handleInputChange}*/}
+      {/*    id="input"*/}
+      {/*  />*/}
+      {/*  <button type="submit">Generate</button>*/}
+      {/*  <div className="flex gap-2">*/}
+      {/*    {tags.map((fruit, index) => (*/}
+      {/*      <Chip key={index} onClose={() => handleClose(fruit)} variant="flat">*/}
+      {/*        {fruit}*/}
+      {/*      </Chip>*/}
+      {/*    ))}*/}
+      {/*  </div>*/}
+      {/*</form>*/}
     </div>
   );
 }

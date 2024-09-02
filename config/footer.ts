@@ -1,7 +1,7 @@
 import { FooterProps } from "@/types/footer";
 
 export const footerData: FooterProps = {
-  productTitle: "AI Anime Art Generator",
+  productTitle: "AI Artistic QR Code Generator",
   productDescription:
     "A powerful AI-driven platform for creating high-quality anime characters and scenes. Perfect for beginners to easily create stunning anime art without any prior experience.",
   columns: [

@@ -38,7 +38,7 @@ const baseSiteConfig = {
     apple: "/logo.png",
   },
   headerLinks: [
-    { name: "repo", href: OPEN_SOURCE_URL, icon: BsGithub },
+    // { name: "repo", href: OPEN_SOURCE_URL, icon: BsGithub },
     {
       name: "twitter",
       href: "https://twitter.com/enterwiz",
