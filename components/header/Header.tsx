@@ -47,8 +47,8 @@ const Header = () => {
         <div className="flex items-center md:gap-x-12">
           <Link
             href="/"
-            aria-label="AI Anime Art Generator"
-            title="AI Anime Art Generator"
+            aria-label="AI Artistic QR Code Generator"
+            title="AI Artistic QR Code Generator"
             className="flex items-center space-x-1 font-bold"
           >
             <Image
@@ -59,7 +59,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              Code
+              AI Artistic QR Code Generator
             </span>
           </Link>
         </div>
