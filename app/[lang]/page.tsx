@@ -42,7 +42,7 @@ export default async function LangHome({
               dataFullWidthResponsive={true}
             />
           </div>
-          <ImageCarousel />
+          {/*<ImageCarousel />*/}
           <div className="min-w-[200px] p-2">
             <GoogleAdBanner
               dataAdSlot="5833096089"
