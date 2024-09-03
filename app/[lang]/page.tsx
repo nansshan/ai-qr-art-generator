@@ -32,25 +32,25 @@ export default async function LangHome({
 
       <Generator id="Generator" locale={dict.Feature} langName={langName} />
 
-      <section className="px-4 sm:px-2 lg:px-4 pb-8 pt-8 md:pt-12 space-y-6">
-        <div className="flex justify-between items-center p-2">
-          <div className="min-w-[200px] p-2">
-            <GoogleAdBanner
-              dataAdSlot="8169648646"
-              dataAdFormat="auto"
-              dataFullWidthResponsive={true}
-            />
-          </div>
-          {/*<ImageCarousel />*/}
-          <div className="min-w-[200px] p-2">
-            <GoogleAdBanner
-              dataAdSlot="5833096089"
-              dataAdFormat="auto"
-              dataFullWidthResponsive={true}
-            />
-          </div>
-        </div>
-      </section>
+      {/*<section className="px-4 sm:px-2 lg:px-4 pb-8 pt-8 md:pt-12 space-y-6">*/}
+      {/*  <div className="flex justify-between items-center p-2">*/}
+      {/*    <div className="min-w-[200px] p-2">*/}
+      {/*      <GoogleAdBanner*/}
+      {/*        dataAdSlot="8169648646"*/}
+      {/*        dataAdFormat="auto"*/}
+      {/*        dataFullWidthResponsive={true}*/}
+      {/*      />*/}
+      {/*    </div>*/}
+      {/*    /!*<ImageCarousel />*!/*/}
+      {/*    <div className="min-w-[200px] p-2">*/}
+      {/*      <GoogleAdBanner*/}
+      {/*        dataAdSlot="5833096089"*/}
+      {/*        dataAdFormat="auto"*/}
+      {/*        dataFullWidthResponsive={true}*/}
+      {/*      />*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
 
       <SocialProof locale={dict.SocialProof} />
       {/* display technology stack, partners, project honors, etc. */}
