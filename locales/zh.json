@@ -1,12 +1,12 @@
 {
   "Hero": {
     "title1": "AI",
-    "title2": "动漫艺术",
+    "title2": "艺术二维码",
     "title3": "生成器",
-    "description": "AI驱动的动漫艺术创作工具。适合初学者，无需任何经验即可轻松创作令人惊叹的动漫艺术。"
+    "description": "AI驱动的二维码艺术创作工具，无需任何经验即可轻松创作独一无二的二维码。"
   },
   "SocialProof": {
-    "maker": "用AI创作令人惊叹的动漫艺术"
+    "maker": "用AI创作属于你自己的艺术二维码"
   },
   "Feature": {
     "title": "功能特点"
@@ -29,15 +29,15 @@
     "description": "这里是一些最常见的问题。"
   },
   "CTA": {
-    "title": "立即创作你的动漫艺术",
+    "title": "立即创作你自己的二维码艺术",
     "description1": "创作",
-    "description2": "你的动漫图片，",
+    "description2": "你的二维码图片，",
     "description3": "定制",
     "description4": "你的场景，并",
     "description5": "实现",
     "description6": "你的动漫愿望！"
   },
   "CTAButton": {
-    "title": "生成图片"
+    "title": "生成二维码图片"
   }
 }

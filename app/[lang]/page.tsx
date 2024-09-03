@@ -4,11 +4,10 @@ import FAQ from "@/components/home/FAQ";
 import Feature from "@/components/home/Feature";
 import Generator from "@/components/home/Generator";
 import Hero from "@/components/home/Hero";
-import ImageCarousel from "@/components/home/ImageCarousel";
 import Pricing from "@/components/home/Pricing";
 import ScrollingLogos from "@/components/home/ScrollingLogos";
 import SocialProof from "@/components/home/SocialProof";
-import { defaultLocale, getDictionary } from "@/lib/i18n";
+import {defaultLocale, getDictionary} from "@/lib/i18n";
 
 export default async function LangHome({
   params: { lang },
